@@ -9,6 +9,8 @@ public class Main {
         int numero1=sc.nextInt();
         int numero2=sc.nextInt();
 
+        sc.close();
+
         if(numero1>numero2){
             System.out.println("Mayor");
         }else{
@@ -19,6 +21,6 @@ public class Main {
             }
         }
 
-        System.out.println(numero1>numero2 ? "Mayor" : System.out.println(numero1<numero2 ? "Menor"));
+        // System.out.println(numero1>numero2 ? "Mayor" : System.out.println(numero1<numero2 ? "Menor"));
     }
 }

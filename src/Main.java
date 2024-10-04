@@ -13,14 +13,11 @@ public class Main {
 
         if(numero1>numero2){
             System.out.println("Mayor");
+        }else if (numero1<numero2){
+            System.out.println("Menor"); // colocar un else if en vez de else y if separado para mayor compresion
         }else{
-            if(numero1<numero2){
-                System.out.println("Menor");
-            }else{
-                System.out.println("Igual o no es posible");
-            }
+            System.out.println("Igual o no es posible");
         }
-
-        // System.out.println(numero1>numero2 ? "Mayor" : System.out.println(numero1<numero2 ? "Menor"));
     }
 }
+        // System.out.println(numero1>numero2 ? "Mayor" : System.out.println(numero1<numero2 ? "Menor"));
